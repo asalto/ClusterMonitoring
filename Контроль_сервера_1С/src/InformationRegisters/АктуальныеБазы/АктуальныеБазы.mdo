@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d6e1b39-183e-40e7-9052-95c0580a7f0a">
+  <producedTypes>
+    <selectionType typeId="143bfaa8-b3d5-4487-b14d-89199754a8ef" valueTypeId="84306dd4-7d72-4fa5-9422-388ab1c3cc69"/>
+    <listType typeId="a8aa0f30-0565-424a-99b4-c9039b59b805" valueTypeId="963958be-11b4-49a9-8b36-68e135596d99"/>
+    <managerType typeId="40a56bb3-5afe-486e-b51d-d6c288e15214" valueTypeId="b911bf67-f007-4b02-a711-fe435c9a7d71"/>
+    <recordSetType typeId="45beef68-1528-43ff-8c9b-304b0775203f" valueTypeId="583128f3-3f31-4390-bcc6-0ff0a36ef1de"/>
+    <recordKeyType typeId="87a79978-48cf-4128-a790-fedfa94ee778" valueTypeId="a5746bd4-903d-4eae-a33d-c949aaadf165"/>
+    <recordType typeId="132242c3-c52e-46b4-b68c-e822e1101763" valueTypeId="0dd5b679-d5d5-4081-aa11-e07ffa2820c4"/>
+    <recordManagerType typeId="879054c5-b604-44fd-95f6-357a4fff6d3b" valueTypeId="c82eef70-33c3-48d8-a890-8c38f2ed0239"/>
+  </producedTypes>
+  <name>АктуальныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальные базы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="a65e5a60-de77-487f-8d41-bd38e8e70394">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

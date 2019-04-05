@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df8c57ad-4980-4b47-8df2-26cb6cc84bdf">
+  <producedTypes>
+    <managerType typeId="594681e1-6522-47de-8ae0-7b2286d46e55" valueTypeId="cdc7b3e6-55ac-48b5-9546-1c700ab01e49"/>
+    <valueManagerType typeId="d16bd678-0e5d-4da0-a51f-67da6e2f923e" valueTypeId="2723fbe3-cfc0-437f-b761-36793ccca656"/>
+  </producedTypes>
+  <name>КонтролироватьРегламентныеЗаданияТестовойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать регламентные задания тестовой базы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

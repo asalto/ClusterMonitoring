@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb168084-903d-4df2-bada-936150acbd56">
+  <producedTypes>
+    <selectionType typeId="cec33890-afea-4da4-b84b-8f29032be196" valueTypeId="08a704c8-b041-4d9f-8ca2-66a5549e5fd2"/>
+    <listType typeId="9a9f68f7-afe3-43d7-99a2-144083969961" valueTypeId="dd69994a-52d3-4a83-9e87-53d9609f2a6e"/>
+    <managerType typeId="a4847b8b-2f92-4504-8ccf-805f43dcdb55" valueTypeId="99776a2c-d435-43ac-80b7-e21b730ca688"/>
+    <recordSetType typeId="fd2bb16f-d219-4306-a2c3-89ed5c5de922" valueTypeId="47e3c30b-7a4d-4e71-a8a5-3fd345dd6176"/>
+    <recordKeyType typeId="4ae5a648-f41d-475f-95b3-e630ec704919" valueTypeId="88a7b42b-d206-4ca2-8050-a308e229415a"/>
+    <recordType typeId="2346603c-d092-4e04-a38d-dc94b36ed969" valueTypeId="6e21932c-a9c4-4156-ae85-02e2545495d2"/>
+    <recordManagerType typeId="4b3438dc-e938-48b8-ad1b-81ab7cd0f47a" valueTypeId="2061be29-2e55-40f9-a04e-093b60038ae0"/>
+  </producedTypes>
+  <name>ИсторияБлокировокИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>История блокировок информационных баз</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="199b3afa-4439-47ba-b950-5ca84b888b11">
+    <name>БлокировкаВключена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка включена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a0373693-9a70-43c7-8d38-90e93eb466e1">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a4c24888-2bfe-4a0b-92a6-0cb983309ea2">
+    <name>Окончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="06f65975-2887-41a2-bd93-987542ddecdb">
+    <name>СообщениеБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="0bff0b43-668b-4e23-bf39-87715aed93f8">
+    <name>КодРазрешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код разрешения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="62be23ef-feec-4d55-9c81-d7799817ece1">
+    <name>ПараметрБлокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр блокировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1f1e13b2-18dc-412c-98e9-195cf6259733">
+    <name>БлокировкаРегламентныхЗаданийВключена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка регламентных заданий включена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4b5dd6ad-e4df-4330-aa7b-58f515a6fce3">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

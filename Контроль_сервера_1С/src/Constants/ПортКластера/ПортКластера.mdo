@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d79c5787-8eb2-4e7b-ba09-1a96357fe8ce">
+  <producedTypes>
+    <managerType typeId="aa6e677a-4f56-4cb9-82a2-f85b3b3ab016" valueTypeId="403bac86-3a8a-4675-b98b-1d34354552d3"/>
+    <valueManagerType typeId="67a50c06-106d-4f0d-bd91-ff5a65984044" valueTypeId="5a3e8cc5-403c-4ff1-bc9f-06357df9e925"/>
+  </producedTypes>
+  <name>ПортКластера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт кластера</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

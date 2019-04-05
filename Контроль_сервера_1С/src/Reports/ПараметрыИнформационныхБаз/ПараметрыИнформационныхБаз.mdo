@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58ef1eaa-bcda-445d-90f7-f204c66d94cd">
+  <producedTypes>
+    <objectType typeId="985c41a7-d5c2-468e-8b1f-f11446e2b802" valueTypeId="de26d55a-f2f7-4741-bb2e-92c7bd9b1361"/>
+    <managerType typeId="61bdadb0-3147-4700-ad80-2cc883158a8e" valueTypeId="30ff9795-fbb5-4857-8ac6-4cfbbc82b90f"/>
+  </producedTypes>
+  <name>ПараметрыИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры информационных баз</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПараметрыИнформационныхБаз.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fe7062d3-6173-4d5b-88df-c7fb8cc756b2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

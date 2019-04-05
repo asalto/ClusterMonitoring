@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e4acc79-748f-4cd3-b49c-43e5a8a15724">
+  <producedTypes>
+    <managerType typeId="60457730-b5ae-4713-96a2-7e804189ca99" valueTypeId="725b3d71-59de-402e-9a7b-92471a8d9adf"/>
+    <valueManagerType typeId="c2f0f590-0c63-40a1-a268-afb41ca2189c" valueTypeId="d1a7266a-6f64-4499-bf4f-2fce138fa479"/>
+  </producedTypes>
+  <name>КоличествоДнейБлокировкиДоУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней блокировки до удаления</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

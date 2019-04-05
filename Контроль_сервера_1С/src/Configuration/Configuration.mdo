@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fb0941b-1c64-48db-a3e7-f51dbe6c2bec">
+  <name>КонтрольКластера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль кластера, редакция 1.0</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6bf3f067-ab0b-44d0-a6d1-889840ed377c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4347402b-93d9-4a43-957e-a9095c093e56"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="74e7ff65-8d58-4c68-826d-ba2419629fa7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7db56441-3e43-4b42-ae9b-39700ce68246"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7322a87e-87db-4b05-95e9-6cbb8bc2e3d9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c77495c0-8212-4149-863d-3cd031ba9015"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>Сложеникин Алексей</vendor>
+  <version>1.0.0.1</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Контроль кластера, редакция 1.0</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Контроль кластера, редакция 1.0
+Copyright © 2019 - 2019, Сложеникин Алексей</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>Copyright © 2019 - 2019, Сложеникин Алексей</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>http://slozhenikin.com</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>http://slozhenikin.com</value>
+  </configurationInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
+  <languages uuid="2a0be27c-e1bf-4208-97f5-6fb7af6cd122">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ИнформационныеБазы</subsystems>
+  <subsystems>Subsystem.ПараметрыБаз</subsystems>
+  <commonPictures>CommonPicture.СписокПараметровБазы</commonPictures>
+  <commonPictures>CommonPicture.ИнформационнаяБаза</commonPictures>
+  <commonPictures>CommonPicture.ПараметрыБаз</commonPictures>
+  <commonPictures>CommonPicture.Дом</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.РаботаСКластерами</commonModules>
+  <commonModules>CommonModule.РаботаСПочтой</commonModules>
+  <scheduledJobs>ScheduledJob.ЗаполнениеПараметровИнформационныхБаз</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ПроверкаСостоянияБаз</scheduledJobs>
+  <commonCommands>CommonCommand.ОткрытьНастройки</commonCommands>
+  <constants>Constant.ПортКластера</constants>
+  <constants>Constant.КоличествоДнейБлокировкиДоУдаления</constants>
+  <constants>Constant.АдресДляОповещения</constants>
+  <constants>Constant.КонтролироватьСуществованиеБазыСУБД</constants>
+  <constants>Constant.КонтролироватьБлокировкуВходаРабочейБазы</constants>
+  <constants>Constant.КонтролироватьРегламентныеЗаданияРабочейБазы</constants>
+  <constants>Constant.КонтролироватьОписаниеБазы</constants>
+  <constants>Constant.КонтролироватьРегламентныеЗаданияТестовойБазы</constants>
+  <constants>Constant.КонтролироватьПродолжительнуюБлокировкуВхода</constants>
+  <commonForms>CommonForm.ИнформацияОКонфигурации</commonForms>
+  <commonForms>CommonForm.ОсновныеНастройки</commonForms>
+  <catalogs>Catalog.ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.Серверы1С</catalogs>
+  <catalogs>Catalog.СерверыБД</catalogs>
+  <catalogs>Catalog.БазыСУБД</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <enums>Enum.СУБД</enums>
+  <enums>Enum.СпособыSMTPАутентификации</enums>
+  <reports>Report.ПараметрыИнформационныхБаз</reports>
+  <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
+  <informationRegisters>InformationRegister.АктуальныеБазы</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияБлокировокИнформационныхБаз</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыИнформационныхБаз</informationRegisters>
+</mdclass:Configuration>

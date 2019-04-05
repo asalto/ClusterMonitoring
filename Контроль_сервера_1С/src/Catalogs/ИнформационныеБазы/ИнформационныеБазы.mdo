@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58aa704c-c4bc-4d02-86aa-147e3500185c">
+  <producedTypes>
+    <objectType typeId="c87ad895-da09-4559-973f-b90c872904bf" valueTypeId="e4c5d773-dd7f-4efb-bf43-292b72195c0c"/>
+    <refType typeId="535cd627-3b92-46f2-8da3-5b7c8ba4ff52" valueTypeId="0794e119-86b0-4132-a187-38647fb3a8b6"/>
+    <selectionType typeId="4d7758c6-ecaf-490a-bdb0-495897ad22f5" valueTypeId="df88a6a2-22d5-4c27-a9e1-fa231023176b"/>
+    <listType typeId="7a04ba23-fe96-4c21-af35-908e9bc62453" valueTypeId="21ad4d2d-6f13-4d82-9250-3bf9e3d933e5"/>
+    <managerType typeId="a0094188-4e2c-4575-92f1-e93581977050" valueTypeId="525831f0-5179-40fa-8230-4d81ba8c843e"/>
+  </producedTypes>
+  <name>ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Серверы1С</owners>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3e4f2381-77fb-4b18-8843-3141161206f5">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6022bca-74b8-4786-95f5-87f7b008d155">
+    <name>РабочаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочая база</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

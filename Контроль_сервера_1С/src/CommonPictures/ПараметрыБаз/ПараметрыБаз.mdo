@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb16dedd-9cb9-4833-9422-bfbb765a6c54">
+  <name>ПараметрыБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры баз</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

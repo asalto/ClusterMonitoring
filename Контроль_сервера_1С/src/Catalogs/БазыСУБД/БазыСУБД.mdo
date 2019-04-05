@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74e20450-1572-4684-8435-86ee8817abdd">
+  <producedTypes>
+    <objectType typeId="23bab0a6-c553-4f45-b376-d4c328293aa0" valueTypeId="0c7852ed-e260-4fb2-90f2-893c7cf5cd82"/>
+    <refType typeId="8b8c430c-f598-4c3b-97f1-29d7d016dd25" valueTypeId="aaa265e6-2b7a-4c4a-b36d-f924199eb1df"/>
+    <selectionType typeId="092ea047-d953-4580-9e86-a84a49f2df4d" valueTypeId="e7edd3bc-c538-4871-9582-754cc912a8ca"/>
+    <listType typeId="f78e52ca-c1ab-4984-9883-44b21b1fe84d" valueTypeId="cd7eb73d-cabe-41a0-9b2c-072cdaad3926"/>
+    <managerType typeId="adfa1802-dbde-4db0-8e71-2df58a17ef04" valueTypeId="cdf62bdf-c27a-4915-9535-d16a36a51a4f"/>
+  </producedTypes>
+  <name>БазыСУБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базы СУБД</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БазыСУБД.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БазыСУБД.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.СерверыБД</owners>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="113e263d-c447-4b55-8960-8823cd50bf62">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbe58474-c44d-4aad-965e-deebe8319d69">
+    <name>БазаОтсутствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>База отсутствует</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

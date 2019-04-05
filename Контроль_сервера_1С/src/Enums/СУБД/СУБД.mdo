@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67079f62-6bb9-4d2c-95d0-c0b05ad7bdf8">
+  <producedTypes>
+    <refType typeId="d83eba48-45a4-4b09-8e4f-746fab8bd57d" valueTypeId="b8afdedf-d4ec-43a6-be9e-27557a4efb60"/>
+    <listType typeId="5a16e32b-4270-4596-9979-30a5e9ce6bf3" valueTypeId="904c6ccf-431c-4c26-aa29-2c4c30be581d"/>
+    <managerType typeId="9e3a3c39-c60d-4788-a427-5c5acad08ae7" valueTypeId="4470eab8-ee02-4081-a3c1-8dff241badc3"/>
+  </producedTypes>
+  <name>СУБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>СУБД</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="26e38a6a-1847-4409-95ab-c74a2b221a59">
+    <name>MSSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>MS SQL</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="52599d2d-8679-44fc-9146-91bf03f9b427">
+    <name>PostgreSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Postgre SQL</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a4bab458-eb21-4b61-9d2d-68a6903776a0">
+    <name>IBMDB2</name>
+    <synonym>
+      <key>ru</key>
+      <value>IBM DB2</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4b784029-9869-4a6d-8fd6-f0fce852c584">
+    <name>OracleDatabase</name>
+    <synonym>
+      <key>ru</key>
+      <value>Oracle database</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f3e7cb1-c862-4f52-8c14-953f51f19397">
+  <producedTypes>
+    <managerType typeId="bcfa6e5d-1c58-4ff9-9359-d6c29e630359" valueTypeId="270c30e0-985e-44f2-8086-fcabeb07c4fd"/>
+    <valueManagerType typeId="6b4fde61-ea88-4eba-95b7-018b3d5f3a22" valueTypeId="f47bf2e9-5a12-4011-88e1-adf491a44c00"/>
+  </producedTypes>
+  <name>КонтролироватьСуществованиеБазыСУБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать существование базы СУБД</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

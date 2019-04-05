@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe73369-f148-4cd7-8893-dd23dd575dde">
+  <producedTypes>
+    <managerType typeId="7f70c3ec-bcfc-4757-a4ab-6d989d45bbbf" valueTypeId="c40aeb4c-3e0d-4051-af79-cb393c8371f4"/>
+    <valueManagerType typeId="a57ac379-4a79-456a-81d5-c6db1101ba87" valueTypeId="d6c09dd0-7a47-4d5e-9f02-20684bdaba08"/>
+  </producedTypes>
+  <name>КонтролироватьПродолжительнуюБлокировкуВхода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать продолжительную блокировку входа</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

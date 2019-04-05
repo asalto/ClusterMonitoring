@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b96443a5-77c0-41f8-9a6a-10b835a8422c">
+  <producedTypes>
+    <managerType typeId="dca5d5d6-7105-480e-bd8e-39bdb5e637db" valueTypeId="1f43171f-f489-4ecf-8738-090a198bedfd"/>
+    <valueManagerType typeId="0a61ef93-442f-4c3d-b1a8-e15b4c6968cd" valueTypeId="e08da79f-1885-417a-b959-6801412879d2"/>
+  </producedTypes>
+  <name>КонтролироватьБлокировкуВходаРабочейБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать блокировку входа рабочей базы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
