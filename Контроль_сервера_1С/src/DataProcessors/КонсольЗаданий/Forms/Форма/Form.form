@@ -664,27 +664,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ОбновитьСписокФоновыхЗаданий</name>
-    <title>
-      <key>ru</key>
-      <value>Обновить список фоновых заданий</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Обновить список фоновых заданий</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОбновитьСписокФоновыхЗаданий</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ВыполнитьЗадание</name>
     <title>
       <key>ru</key>
@@ -701,78 +680,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыполнитьЗадание</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьЗадание</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить задание</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавить задание</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.CreateListItem</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ДобавитьЗадание</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>УдалитьЗадание</name>
-    <title>
-      <key>ru</key>
-      <value>Удалить задание</value>
-    </title>
-    <id>5</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Удалить задание</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Delete</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>УдалитьЗадание</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ОтменитьЗадание</name>
-    <title>
-      <key>ru</key>
-      <value>Отменить задание</value>
-    </title>
-    <id>6</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Отменить задание</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Stop</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОтменитьЗадание</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
